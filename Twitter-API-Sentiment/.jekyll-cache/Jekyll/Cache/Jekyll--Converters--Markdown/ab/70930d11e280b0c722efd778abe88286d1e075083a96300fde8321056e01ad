@@ -1,0 +1,35 @@
+I"+<h1 id="cómo-crear-una-cuenta-de-desarrollador-en-twitter">Cómo crear una cuenta de desarrollador en Twitter</h1>
+
+<p>Para trabajar con la API de Twitter te darás de alta en el programa de desarrolladores (developer program). Tras rellenar una serie de datos obtendrás dos claves únicas: API key, API token. Será necesario disponer de dichas claves para el correcto desarrollo del workshop.</p>
+
+<ol>
+  <li>
+    <p>Inicia sesión en tu cuenta de Twitter</p>
+  </li>
+  <li>
+    <p>Indica que quieres explorar la API, dentro de la categoría de “hobbies”</p>
+  </li>
+</ol>
+
+<p><img src="https://github.com/nerealuis/nerealuis.github.io/tree/master/Twitter-API-Sentiment/images/twitter_1.png" alt="alt text" title="Logo Title Text 1" /></p>
+
+<ol>
+  <li>Confirma tus datos y pulsa <em>Next</em></li>
+</ol>
+
+<p><img src="https://github.com/nerealuis/nerealuis.github.io/tree/master/Twitter-API-Sentiment/images/twitter_2.png" alt="albbbbt" title="Logo Title Text 2" /></p>
+
+<ol>
+  <li>
+    <p>Describe en inglés de forma general qué tareas llevarás a cabo utilizando el API de Twitter</p>
+
+    <ul>
+      <li><em>No copies el texto de ejemplo de forma literal. Indica que el objetivo es explorar el API para aplicar algoritmos de Machine Learning, realizar data-mining, análisis de sentimiento  o aprender a limpiar un dataset, por ejemplo.</em></li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="https://github.com/nerealuis/nerealuis.github.io/tree/master/Twitter-API-Sentiment/images/twitter_3.png" alt="ablabl" title="Logo Title Text 3" /></p>
+
+<p><a href="./">back</a></p>
+:ET
