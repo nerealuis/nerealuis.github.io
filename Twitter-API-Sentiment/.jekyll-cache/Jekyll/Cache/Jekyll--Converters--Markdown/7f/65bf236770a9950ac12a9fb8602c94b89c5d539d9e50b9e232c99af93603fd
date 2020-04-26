@@ -1,8 +1,8 @@
-I"�	<h1 id="introducción">Introducción</h1>
+I"R<h1 id="introducción">Introducción</h1>
 
 <p>Cualquier problema de Machine Learning (data-mining, text-analysis, sentiment-analysis…) contiene las siguientes fases:</p>
 
-<p><img src="/assets/img/intro_1.png" alt="Pasos" title="Pasos" /></p>
+<p><img src="assets/img/intro_1.png" alt="Pasos" title="Pasos" /></p>
 
 <h2 id="fuentes-de-datos">Fuentes de datos</h2>
 
@@ -18,7 +18,11 @@
 
 <h1 id="qué-vamos-a-hacer">¿Qué vamos a hacer?</h1>
 
-<p><img src="/assets/img/intro_2.png" alt="Arquitectura básica" title="Arquitectura básica" /></p>
+<p>La primera parte del taller consistirá en desarrollar en codigo Python este diagrama básico de obtención de datos a través de Twitter. Los datos serán <em>tweets</em> de la red social y los recibiremos estructurados. Después los exportaremos a un fichero CSV.</p>
+
+<p><img src="assets/img/intro_2.png" alt="Arquitectura básica" title="Arquitectura básica" /></p>
+
+<p>La segunda parte del taller consistirá en limpiar esos datos, trabajar con funciones básicas de Natural Language Processing y analizar el sentimiento de los tweets a través de librerías de Python como Textblob o MeaningCloud.</p>
 
 <h2 id="requisitos">Requisitos</h2>
 
@@ -29,14 +33,16 @@
 </ul>
 
 <p>Revisa tu(s) versión(es) instaladas de Python con el siguiente comando. Si tienes dos versiones diferentes instaladas, seguramente Python 3.6 esté asociado al segundo.</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python --version
-python3 --version
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python <span class="nt">--version</span>
+python3 <span class="nt">--version</span>
 </code></pre></div></div>
 <p>Para saber dónde está instalada tu versión de Python escribe en la Terminal:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>which python
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>which python
 </code></pre></div></div>
 
 <p>##Librerías de Python</p>
+
+<p>Las librerías recomendadas para este taller son las siguientes:</p>
 
 <ul>
   <li>tweepy</li>
@@ -52,11 +58,11 @@ python3 --version
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> &lt;nombre libreria&gt;
 </code></pre></div></div>
 
-<p>Revisa que están instaladas correctamente con</p>
+<p>Revisa que están instaladas correctamente con el siguiente comando:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip list
 </code></pre></div></div>
 
-<h1 id="contenidos">Contenidos</h1>
+<h1 id="índice-de-contenidos">Índice de contenidos</h1>
 
 <ol>
   <li>
