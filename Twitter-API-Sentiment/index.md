@@ -24,7 +24,7 @@ Algunos ejemplos gratuitos de fuentes de datos estructurados y no estructurados 
 
 La primera parte del taller consistirá en desarrollar en codigo Python este diagrama básico de obtención de datos a través de Twitter. Los datos serán _tweets_ de la red social y los recibiremos estructurados. Después los exportaremos a un fichero CSV.
 
-![Arquitectura básica](/assets/img/intro_2.png "Arquitectura básica")
+![Arquitectura básica](assets/img/intro_2.png "Arquitectura básica")
 
 La segunda parte del taller consistirá en limpiar esos datos, trabajar con funciones básicas de Natural Language Processing y analizar el sentimiento de los tweets a través de librerías de Python como Textblob o MeaningCloud.
 

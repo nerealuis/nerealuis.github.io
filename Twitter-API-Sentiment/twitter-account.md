@@ -12,11 +12,11 @@ Para trabajar con la API de Twitter te darás de alta en el programa de desarrol
 
 1. Indica que quieres explorar la API, dentro de la categoría de “hobbies”
 
-	![alt text](/assets/img/twitter_1.png "Logo Title Text 1")
+	![alt text](assets/img/twitter_1.png "Logo Title Text 1")
 
 1. Confirma tus datos y pulsa _Next_
 
-	![albbbbt](/assets/img/twitter_2.png "Logo Title Text 2")
+	![albbbbt](assets/img/twitter_2.png "Logo Title Text 2")
 
 
 1. Describe en inglés de forma general qué tareas llevarás a cabo utilizando el API de Twitter
@@ -24,11 +24,11 @@ Para trabajar con la API de Twitter te darás de alta en el programa de desarrol
 	+ _No copies el texto de ejemplo de forma literal. Indica que el objetivo es explorar el API para aplicar algoritmos de Machine Learning, realizar data-mining, análisis de sentimiento  o aprender a limpiar un dataset, por ejemplo._
 
 
-	![ablabl](/assets/img/twitter_3.png "Logo Title Text 3")
+	![ablabl](assets/img/twitter_3.png "Logo Title Text 3")
 
 1. A la pregunta _Are you planning to analyze Twitter data" marca _Yes_ 
 
-	![ablabl](/assets/img/twitter_4.png "Logo Title Text 4")
+	![ablabl](assets/img/twitter_4.png "Logo Title Text 4")
 
 1. Pon ejemplos de qué quieres analizar y cómo. 
 
@@ -39,13 +39,13 @@ Para trabajar con la API de Twitter te darás de alta en el programa de desarrol
 
 1. Acepta el acuerdo de desarrolladores
 
-	![ablabl](/assets/img/twitter_5.png "Logo Title Text 5")
+	![ablabl](assets/img/twitter_5.png "Logo Title Text 5")
 
 1. Verifica que te ha llegado un email y haz click en la confirmación del mismo
 
-	![ablabl](/assets/img/twitter_6.png "Logo Title Text 6")
+	![ablabl](assets/img/twitter_6.png "Logo Title Text 6")
 
-	![ablabl](/assets/img/twitter_7.png "Logo Title Text 7")
+	![ablabl](assets/img/twitter_7.png "Logo Title Text 7")
 
 1. ¡Enhorabuena! Ya tienes tu cuenta de desarrollador activada. 
 
