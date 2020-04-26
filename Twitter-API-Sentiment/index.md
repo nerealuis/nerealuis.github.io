@@ -6,7 +6,7 @@ layout: default
 
 Cualquier problema de Machine Learning (data-mining, text-analysis, sentiment-analysis…) contiene las siguientes fases:
 
-![Pasos](Twitter-API-Sentiment/assets/img/intro_1.png "Pasos")
+![Pasos](assets/img/intro_1.png "Pasos")
 
 ## Fuentes de datos
 
