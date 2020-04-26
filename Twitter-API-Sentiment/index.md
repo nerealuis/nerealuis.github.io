@@ -4,122 +4,72 @@ layout: default
 
 # Introducción
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Cualquier problema de Machine Learning (data-mining, text-analysis, sentiment-analysis…) contiene las siguientes fases:
 
-[Link to another page](./twitter-account.html).
+![Pasos](/assets/img/intro_1.png "Pasos")
 
-There should be whitespace between paragraphs.
+## Fuentes de datos
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Algunos ejemplos gratuitos de fuentes de datos estructurados y no estructurados que se pueden encontrar en Internet
 
-# Header 1
+[https://www.google.com/publicdata/directory](https://www.google.com/publicdata/directory)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+[https://registry.opendata.aws/](https://registry.opendata.aws/)
 
-## Header 2
+[https://www.reddit.com/r/datasets/](https://www.reddit.com/r/datasets/)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+[https://datos.gob.es](https://datos.gob.es)
 
-### Header 3
+# ¿Qué vamos a hacer?
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+La primera parte del taller consistirá en desarrollar en codigo Python este diagrama básico de obtención de datos a través de Twitter. Los datos serán _tweets_ de la red social y los recibiremos estructurados. Después los exportaremos a un fichero CSV.
+
+![Arquitectura básica](/assets/img/intro_2.png "Arquitectura básica")
+
+La segunda parte del taller consistirá en limpiar esos datos, trabajar con funciones básicas de Natural Language Processing y analizar el sentimiento de los tweets a través de librerías de Python como Textblob o MeaningCloud.
+
+## Requisitos
+
+* Python 3.6 o superior
+* Jupyter Notebooks (o Anaconda)
+* Editor de código o IDE
+ 
+Revisa tu(s) versión(es) instaladas de Python con el siguiente comando. Si tienes dos versiones diferentes instaladas, seguramente Python 3.6 esté asociado al segundo.
+```bash
+python --version
+python3 --version
+```
+Para saber dónde está instalada tu versión de Python escribe en la Terminal:
+```bash
+which python
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+##Librerías de Python
+
+Las librerías recomendadas para este taller son las siguientes:
+
+* tweepy
+* pandas
+* csv
+* nltk
+* wordcloud
+* textblob
+* meaningCloud-python
+
+Puedes instalarlas con 
+```bash
+pip install <nombre libreria>
 ```
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
+Revisa que están instaladas correctamente con el siguiente comando:
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+pip list
 ```
 
-```
-The final element.
-```
+# Índice de contenidos
+
+1. [Cómo conseguir una cuenta de desarrollador en Twitter](./twitter-account.html).
+
+1. [Cómo crear tu primera app de Twitter](./twitter-app.html).
+
+

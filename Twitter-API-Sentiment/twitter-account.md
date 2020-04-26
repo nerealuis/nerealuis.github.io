@@ -47,9 +47,10 @@ Para trabajar con la API de Twitter te darás de alta en el programa de desarrol
 
 	![ablabl](/assets/img/twitter_7.png "Logo Title Text 7")
 
-1.
-	¡Enhorabuena! Ya tienes tu app, podrás encontrarla en el siguiente listado siempre que tu sesión esté iniciada 
-	[https://developer.twitter.com/en/apps](https://developer.twitter.com/en/apps)
+1. ¡Enhorabuena! Ya tienes tu cuenta de desarrollador activada. 
 
+	+ _Nota: Si no recibes esta respuesta en tu email, es posible que la verificación de tu cuenta de desarrollador vaya a tardar hasta 24h-48h en procesarse. Esto sucede cuando la descripción o detalles de la app se han redactado de la misma forma (copiado) en varias ocasiones o, a veces, si te acabas de crear el mismo día una cuenta de Twitter y aplicas a desarrollador._
+
+[Siguiente paso: Cómo obtener tus API keys de Twitter](./twitter-app.html)
 
 [Volver a inicio](./)

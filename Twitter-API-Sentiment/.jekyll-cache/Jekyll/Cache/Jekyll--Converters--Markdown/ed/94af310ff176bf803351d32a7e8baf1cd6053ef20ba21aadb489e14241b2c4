@@ -1,0 +1,38 @@
+I"�<h1 id="introducción">Introducción</h1>
+
+<p>Cualquier problema de Machine Learning (data-mining, text-analysis, sentiment-analysis…) contiene las siguientes fases:</p>
+
+<p><img src="/assets/img/intro_1.png" alt="Pasos" title="Pasos" /></p>
+
+<h2 id="fuentes-de-datos">Fuentes de datos</h2>
+
+<p>https://www.google.com/publicdata/directory
+https://registry.opendata.aws/
+https://www.reddit.com/r/datasets/
+https://datos.gob.es</p>
+
+<h1 id="qué-vamos-a-hacer">¿Qué vamos a hacer?</h1>
+
+<p><img src="/assets/img/intro_2.png" alt="Arquitectura básica" title="Arquitectura básica" /></p>
+
+<h1 id="requisitos">Requisitos</h1>
+
+<ul>
+  <li>Python 3.6</li>
+  <li>Jupyter Notebooks (o Anaconda)</li>
+  <li>Tweepy</li>
+  <li>Editor de código o IDE</li>
+</ul>
+
+<h1 id="contenidos">Contenidos</h1>
+
+<ol>
+  <li>
+    <p><a href="./twitter-account.html">Cómo conseguir una cuenta de desarrollador en Twitter</a>.</p>
+  </li>
+  <li>
+    <p><a href="./twitter-app.html">Cómo crear tu primera app de Twitter</a>.</p>
+  </li>
+</ol>
+
+:ET

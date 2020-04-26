@@ -1,0 +1,67 @@
+I"�<h1 id="introducción">Introducción</h1>
+
+<p>Cualquier problema de Machine Learning (data-mining, text-analysis, sentiment-analysis…) contiene las siguientes fases:</p>
+
+<p><img src="/assets/img/intro_1.png" alt="Pasos" title="Pasos" /></p>
+
+<h2 id="fuentes-de-datos">Fuentes de datos</h2>
+
+<p>Algunos ejemplos gratuitos de fuentes de datos estructurados y no estructurados que se pueden encontrar en Internet</p>
+
+<p><a href="https://www.google.com/publicdata/directory">https://www.google.com/publicdata/directory</a></p>
+
+<p><a href="https://registry.opendata.aws/">https://registry.opendata.aws/</a></p>
+
+<p><a href="https://www.reddit.com/r/datasets/">https://www.reddit.com/r/datasets/</a></p>
+
+<p><a href="https://datos.gob.es">https://datos.gob.es</a></p>
+
+<h1 id="qué-vamos-a-hacer">¿Qué vamos a hacer?</h1>
+
+<p><img src="/assets/img/intro_2.png" alt="Arquitectura básica" title="Arquitectura básica" /></p>
+
+<h1 id="requisitos">Requisitos</h1>
+
+<ul>
+  <li>Python 3.6 o superior</li>
+  <li>Jupyter Notebooks (o Anaconda)</li>
+  <li>Editor de código o IDE</li>
+</ul>
+
+<p>Revisa tu(s) versión(es) instaladas de Python con el siguiente comando. Si tienes dos versiones diferentes instaladas, seguramente Python 3.6 esté asociado al segundo.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python --version
+python3 --version
+</code></pre></div></div>
+
+<p>Librerías de Python</p>
+
+<ul>
+  <li>tweepy</li>
+  <li>pandas</li>
+  <li>csv</li>
+  <li>nltk</li>
+  <li>wordcloud</li>
+  <li>textblob</li>
+  <li>meaningCloud-python</li>
+</ul>
+
+<p>Puedes instalarlas con</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> &lt;nombre libreria&gt;
+</code></pre></div></div>
+
+<p>Revisa que están instaladas correctamente con</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip list
+</code></pre></div></div>
+
+<h1 id="contenidos">Contenidos</h1>
+
+<ol>
+  <li>
+    <p><a href="./twitter-account.html">Cómo conseguir una cuenta de desarrollador en Twitter</a>.</p>
+  </li>
+  <li>
+    <p><a href="./twitter-app.html">Cómo crear tu primera app de Twitter</a>.</p>
+  </li>
+</ol>
+
+:ET
