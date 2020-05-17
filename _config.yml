@@ -22,7 +22,7 @@ url: "https://nerealuis.github.io/" # the base hostname & protocol for your site
 twitter_username: 'sailormerqury'
 linkedin_username: 'nerealuis'
 github_username: 'nerealuis'
-medium_username: 'blbl'
+medium_username: 'pruebaprueba'
 
 # Build settings
 markdown: kramdown
@@ -100,4 +100,4 @@ enable_contact: true
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
+  - { url: '/about', text: 'Sobre mí' }
