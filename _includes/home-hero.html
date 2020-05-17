@@ -1,0 +1,69 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <div class="hero-container">
+
+        <div class="hero-content">
+
+          {% if site.title != '' %}
+           <p class="text-center"><img src="/img/avatar_nerea.png" alt="Logo" style="max-width:20%"/>
+          <h1 class="text-center">{{site.title}}</h1></p>
+          {% endif %}
+
+         
+          <p class="text-center">
+            {% if site.description != '' %}
+            {{site.description}}{% endif %}</p>
+            <p style="text-align:center">{% if site.enable_contact == true %}
+            {% include contact.html %}
+            {% include contact-modal.html %}
+            {% endif %}
+          </p> 
+
+
+          <div class="hero-buttons">
+             <h3 class="section-title text-center">Sígueme en redes</h3>
+            {% if site.twitter_username != '' %}
+              <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
+            {% endif %}
+            <!--{% if site.github_username != '' %}
+              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
+            {% endif %}-->
+            {% if site.linkedin_username != '' %}
+              <a href="https://linkedin.com/in/{{site.linkedin_username }}" target="_blank"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>Linkedin</button></a>
+            {% endif %}  
+
+          </div>
+
+          <div class="hero-content"><br/></div>
+           <div class="hero-content">
+                  <h3 class="section-title text-center">Descubre más sobre mí</h3>
+            
+      <p class="text-center">En el siguiente enlace se encuentran recopiladas todas las charlas técnicas, divulgativas, seminarios que he impartido. También entrevistas, reportajes y participación en diversos medios.
+
+      <a href="https://www.notion.so/nerealuis/Material-de-divulgaci-n-charlas-t-cnicas-talleres-entrevistas-sailormerqury-45b9ba0b8e55470e935a2b7f2093dda3" target="_blank"><button class="btn btn-default btn-lg"><i class="fa fa-lg"></i>Divulgación, charlas técnicas y entrevistas</button></a></p>
+           </div>
+        <div class="hero-buttons">
+
+              <h3 class="section-title text-center">Entidades con las que he colaborado</h3>
+               <p class="text-center"><img src="/img/unnamed.jpg" style="max-width: 20%"/><img src="/img/fund_logo_cab.gif" style="max-width: 20%"/><img src="/img/inspiring-girls.jpeg" style="max-width: 20%"/><img src="/img/cotec.jpg" style="max-width: 20%"/><img src="/img/digitalcenter521.jpg" style="max-width: 20%"/><img src="/img/logoeoiok.jpg" style="max-width: 20%"/><img src="/img/anecanoticia.png" style="max-width: 20%"/><img src="/img/TNP-01-01.jpg" style="max-width: 30%"/><img src="/img/structuralia.png" style="max-width: 20%"/><img src="/img/Logo_FMP.jpg" style="max-width: 20%"/><img src="/img/auren.png" style="max-width: 20%"/><img src="/img/rai.jpg" style="max-width: 20%"/><img src="/img/fa.png" style="max-width: 15%;padding-right:2%"/><img src="/img/Kutxa_logo.jpg" style="max-width: 20%;padding-right: 2%"/><img src="/img/hisparob.jpg" style="max-width: 15%"/><img src="/img/evax.jpg" style="max-width: 20%"/><img src="/img/barbie.png" style="max-width: 10%"/></p>
+        </div>
+        <div class="hero-buttons">
+              <h3 class="section-title text-center">Algunos eventos en los que he participado</h3>
+               <p class="text-center"> <a href="https://events.codemotion.com/conferences/madrid/2019/es/" target="_blank"><img src="/img/codemotion.png" style="max-width: 25%"/></a><a href="https://www.trivulgando.es/" target="_blank"><img src="/img/d0-DrGmc.png" style="max-width: 12%;padding-right: 2%"/></a><a href="http://granada.hablandodeciencia.com/" target="_blank"><img src="/img/logo-dc6_01-1.png" style="max-width: 9%;padding-right: 2%"/></a><a href="http://www.womeninmobile.org/" target="_blank"><img src="/img/wim.webp" style="max-width: 15%"/></a><a href="https://pintofscience.es/" target="_blank"><img src="/img/pint.jpg" style="max-width: 20%"/><a href="https://2019.commit-conf.com/" target="_blank"><img src="/img/0.png" style="max-width: 17%;padding-right: 2%"/></a><a href="https://wecodefest.com/2019/" target="_blank"><img src="/img/wecode.jpeg" style="max-width: 25%;padding-right: 2%"/></a><a href="https://2019.extremaduradigitalday.com/" target="_blank"><img src="/img/edd.png" style="max-width: 10%"/></a><a href="https://adaloversconf.es/" target="_blank"><img src="/img/ada.png" style="max-width: 20%"/></a><a href="http://womencourage.acm.org/" target="_blank"><img src="/img/womencourage.jpeg" style="max-width: 20%"/></a><a href="https://cienciaenelparlamento.org/" target="_blank"><img src="/img/ceep.jpg" style="max-width: 20%"/></a><a href="https://ipt.acm.org/"><img src="/img/ipt.png" style="max-width: 15%"/></a><a href="https://devfest.withgoogle.com/" target="_blank"><img src="/img/devfest.png" style="max-width: 30%;padding-right: 2%"/></a><a href="https://www.uc3m.es/ss/Satellite/ApoyoEstudiante/es/TextoMixta/1371242435904/" target="_blank"><img src="/img/technovation.jpg" style="max-width: 20%;padding-right: 2%"/></a><a href="http://www.raing.es/es/actividades/programa-techmi-de-mujer-e-ingenier" target="_blank"><img src="/img/techmi.jpeg" style="max-width: 20%"/></a><a href="http://wtm.gdg.es/" target="_blank"><img src="/img/wtm.png" style="max-width: 30%;padding-right: 2%"/><a href="https://wimlworkshop.org/" target="_blank"><img src="/img/wiml.png" style="max-width:20%;padding-right:2%"/></a><a href="https://www.widsconference.org/regional-events-2020.html#online_events" target="_blank"><img src="/img/wids.jpeg" style="max-width: 20%;padding-right: 2%"/></a><a href="https://incmty.com/" target="_blank"><img src="/img/INCmtylogo.jpg" style="max-width: 15%"/></a>
+        </div>
+      </div>
+      </div>
+         <a class="section-jump text-center" href="#portfolio">
+        <i class="fa fa-angle-down fa-4x"></i>
+      </a>
+        
+    </div>
+
+  </div>             
+
+
+</div>

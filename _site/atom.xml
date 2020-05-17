@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Nerea Luis Mingueza</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2020-05-17T19:19:53+02:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Nerea Luis</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>T3chFest</title>
+   <link href="http://localhost:4000/event/technology/2019/03/14/phantom-jekyll-template.html"/>
+   <updated>2019-03-14T00:00:00+01:00</updated>
+   <id>http://localhost:4000/event/technology/2019/03/14/phantom-jekyll-template</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>En prensa</title>
+   <link href="http://localhost:4000/press/2016/02/20/rescue-themes.html"/>
+   <updated>2016-02-20T16:56:00+01:00</updated>
+   <id>http://localhost:4000/press/2016/02/20/rescue-themes</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Chatbot COVID-19</title>
+   <link href="http://localhost:4000/chatbot/2016/02/20/weathercast.html"/>
+   <updated>2016-02-20T16:56:00+01:00</updated>
+   <id>http://localhost:4000/chatbot/2016/02/20/weathercast</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>

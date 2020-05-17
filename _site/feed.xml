@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nerea Luis Mingueza</title>
+    <description>Soy Doctora en Ciencias de la Computación, Cofundadora de T3chFest y trabajo en el equipo de Inteligencia Artificial en Sngular. Me encanta la divulgación, la docencia, la inteligencia artificial y la robótica. </description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 17 May 2020 19:19:53 +0200</pubDate>
+    <lastBuildDate>Sun, 17 May 2020 19:19:53 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>T3chFest</title>
+        <description>
+</description>
+        <pubDate>Thu, 14 Mar 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/event/technology/2019/03/14/phantom-jekyll-template.html</link>
+        <guid isPermaLink="true">http://localhost:4000/event/technology/2019/03/14/phantom-jekyll-template.html</guid>
+        
+        
+        <category>event</category>
+        
+        <category>technology</category>
+        
+      </item>
+    
+      <item>
+        <title>En prensa</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 16:56:00 +0100</pubDate>
+        <link>http://localhost:4000/press/2016/02/20/rescue-themes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/press/2016/02/20/rescue-themes.html</guid>
+        
+        
+        <category>press</category>
+        
+      </item>
+    
+      <item>
+        <title>Chatbot COVID-19</title>
+        <description>
+</description>
+        <pubDate>Sat, 20 Feb 2016 16:56:00 +0100</pubDate>
+        <link>http://localhost:4000/chatbot/2016/02/20/weathercast.html</link>
+        <guid isPermaLink="true">http://localhost:4000/chatbot/2016/02/20/weathercast.html</guid>
+        
+        
+        <category>chatbot</category>
+        
+      </item>
+    
+  </channel>
+</rss>
